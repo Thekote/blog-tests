@@ -1,0 +1,25 @@
+{
+  "name": "blog-tests",
+  "version": "1.0.0",
+  "description": "example repo for automated tests with JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app/index.js",
+    "prettier": "prettier **/*.js --check",
+    "prettier:format": "prettier **/*.{js,html,jsx,css,ts,tsx} --write"
+  },
+  "keywords": [
+    "blog"
+  ],
+  "author": "Guilherme Monteiro",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19",
+    "pg": "^8.7.3",
+    "sequelize": "^6.21.3"
+  }
+}
